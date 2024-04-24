@@ -1,0 +1,16 @@
+package sobrecarga;
+
+public class RelogioTeste {
+
+	public static void main(String[] args) {
+		Relogio horario = new Relogio ();
+		
+		horario.configuraHorario(10, 10, 10);
+	    System.out.println(horario.getHora()+":"+horario.getMinuto()+":"+horario.getSehgundo());
+	
+	    horario.configuraHorario(5, 10, 20);
+	    System.out.println(horario.getMinuto()+":"+horario.getSehgundo());
+		
+	}
+
+}
