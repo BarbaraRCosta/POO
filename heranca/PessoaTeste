@@ -12,9 +12,11 @@ public class PssoaTeste {
 		System.out.println ("CNPJ " + pj.getCnpj());
 		System.out.println ("Inscricao Estadual " + pj.getInscricaoEstadual());
 		
-		//PessoaFisica pf = new PessoaFisica ("Joana Pedro", 123654, "78787", "7987987");
+		PessoaFisica pf = new PessoaFisica ("Joana Pedro","Casa 1 rua 2", 123654, "78787", "7987987");
 		
-		//System.out.println("Nome" + pf.getNome());
+		System.out.println("Nome " + pf.getNome());
+		System.out.println("Endereco " + pf.getNome());
+//finalizar
 		
 
 	}
