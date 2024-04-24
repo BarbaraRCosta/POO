@@ -1,0 +1,48 @@
+package sobrecarga;
+
+public class Relogio {
+	
+	private int sehgundo;
+	private int minuto;
+	private int hora;
+		
+	
+	public Relogio() {}
+
+
+
+	public void configuraHorario(int sehgundo, int minuto, int hora) {
+		this.sehgundo = sehgundo;
+		this.minuto = minuto;
+		this.hora = hora;
+	}
+
+
+
+	public void configuraHorario(int sehgundo, int minuto) {
+		this.sehgundo = sehgundo;
+		this.minuto = minuto;
+	}
+
+
+
+	public int getSehgundo() {
+		return sehgundo;
+	}
+
+
+
+	public int getMinuto() {
+		return minuto;
+	}
+
+
+
+	public int getHora() {
+		return hora;
+	}
+	
+	
+	
+	
+}
