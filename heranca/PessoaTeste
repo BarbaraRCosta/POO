@@ -1,7 +1,5 @@
 package sobrecarga;
 
-public class PssoaTeste {
-
 public class PessoaTeste {
 
 	public static void main(String[] args) {
