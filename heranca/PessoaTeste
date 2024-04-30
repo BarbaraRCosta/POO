@@ -2,6 +2,8 @@ package sobrecarga;
 
 public class PssoaTeste {
 
+public class PessoaTeste {
+
 	public static void main(String[] args) {
 		
 		PessoaJuridica pj = new PessoaJuridica ("Joao", "Rua ABC", 123, "00000", "00000111");
@@ -15,9 +17,10 @@ public class PssoaTeste {
 		PessoaFisica pf = new PessoaFisica ("Joana Pedro","Casa 1 rua 2", 123654, "78787", "7987987");
 		
 		System.out.println("Nome " + pf.getNome());
-		System.out.println("Endereco " + pf.getNome());
-//finalizar
-		
+		System.out.println("Endereco " + pf.getEndereco());
+		System.out.println("Telefone " + pf.getTelefone());
+		System.out.println("CPF " + pf.getCpf());
+		System.out.println("RG " + pf.getRg());
 
 	}
 
