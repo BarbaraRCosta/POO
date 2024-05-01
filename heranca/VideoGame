@@ -16,7 +16,11 @@ public class VideoGame extends Produto {
 	public void setControles(int controles) {
 		this.controles = controles;
 	}
-	
+
+	@Override
+	public String toString() {
+		return "VideoGame [controles=" + controles + ", nome=" + nome + ", marca=" + marca + ", preco=" + preco + "]";
+	}
 	
 	
 
