@@ -2,9 +2,9 @@ package Produto;
 
 public class Produto {
 	
-	private String nome;
-	private String marca;
-	private float preco;
+	protected String nome;
+	protected String marca;
+	protected float preco;
 	
 	
 	
@@ -32,5 +32,12 @@ public class Produto {
 		this.marca = marca;
 		this.preco = preco;
 	}
+	@Override
+	public String toString() {
+		return "Produto [nome=" + nome + ", marca=" + marca + ", preco=" + preco + "]";
+	}
 	
+	
+	
+
 }
