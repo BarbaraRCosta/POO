@@ -26,6 +26,13 @@ public class TV extends Produto {
 	public void setTipo(String tipo) {
 		this.tipo = tipo;
 	}
+
+	@Override
+	public String toString() {
+		//return "TV [tamanho=" + tamanho + ", tipo=" + tipo + "]";
+		// abaixo saída personalizada
+		return "Televisao " + nome + " Marca " + marca + " Preco " + preco + " Tamanho em polegadas " + tamanho + " Tipo " + tipo;
+	}
 	
 	
 
