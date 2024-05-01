@@ -1,0 +1,23 @@
+package Produto;
+
+public class VideoGame extends Produto {
+	
+	private int controles;
+
+	public VideoGame(String nome, String marca, float preco, int controles) {
+		super(nome, marca, preco);
+		this.controles = controles;
+	}
+
+	public int getControles() {
+		return controles;
+	}
+
+	public void setControles(int controles) {
+		this.controles = controles;
+	}
+	
+	
+	
+
+}
