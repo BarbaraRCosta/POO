@@ -1,0 +1,23 @@
+package Produto;
+
+public class ProdutoTeste {
+
+	public static void main(String[] args) {
+
+    // criação das classes com seus parâmetros
+		TV tv = new TV ("Viera", "LG", 2800f, 50 ,"LCD");
+		Radio radio = new Radio ("W300", "Philips", 630f, 1200);
+		VideoGame game = new VideoGame ("PS5", "Sony", 3500, 2);
+		
+		//Saída de sistema para visualização
+		System.out.println("Televisao " + tv.getNome() + " Marca " + tv.getMarca() + " Preco " + tv.getPreco() + " Tamanho em polegadas " + tv.getTamanho() + " Tipo " + tv.getTipo());
+		System.out.println("Radio " + radio.getNome() + " Marca " + radio.getMarca() + " Preco " + radio.getPreco() + " Potencia " + radio.getPotenciaRMS());
+		System.out.println("Video Game " + game.getNome() + " Marca " + game.getMarca() + " Preco " + game.getPreco() + " Numero de controles " + game.getControles());
+		
+		
+		
+		
+		
+	}
+
+}
