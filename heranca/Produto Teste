@@ -10,11 +10,13 @@ public class ProdutoTeste {
 		VideoGame game = new VideoGame ("PS5", "Sony", 3500, 2);
 		
 		//Saída de sistema para visualização
-		System.out.println("Televisao " + tv.getNome() + " Marca " + tv.getMarca() + " Preco " + tv.getPreco() + " Tamanho em polegadas " + tv.getTamanho() + " Tipo " + tv.getTipo());
-		System.out.println("Radio " + radio.getNome() + " Marca " + radio.getMarca() + " Preco " + radio.getPreco() + " Potencia " + radio.getPotenciaRMS());
-		System.out.println("Video Game " + game.getNome() + " Marca " + game.getMarca() + " Preco " + game.getPreco() + " Numero de controles " + game.getControles());
+		//System.out.println("Televisao " + tv.getNome() + " Marca " + tv.getMarca() + " Preco " + tv.getPreco() + " Tamanho em polegadas " + tv.getTamanho() + " Tipo " + tv.getTipo());
+		//System.out.println("Radio " + radio.getNome() + " Marca " + radio.getMarca() + " Preco " + radio.getPreco() + " Potencia " + radio.getPotenciaRMS());
+		//System.out.println("Video Game " + game.getNome() + " Marca " + game.getMarca() + " Preco " + game.getPreco() + " Numero de controles " + game.getControles());
 		
-		
+		System.out.println(tv);
+		System.out.println(radio);
+		System.out.println(game);
 		
 		
 		
